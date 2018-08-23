@@ -49,9 +49,6 @@ object CommonFriendsStepOne {
     }).map(x=>println(x))
 
 
-
-//    groupRdd.map(x=>{
-//      (x._1,x._2.getClass)
 //
     groupRdd.collect().foreach(println)
 
