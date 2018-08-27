@@ -23,10 +23,6 @@ object CommonFriends {
     //4、规约
     val result = rdd1.reduceByKey(_+"::"+_).collect().foreach(println)
 
-
-
-
-
   }
 
 }
